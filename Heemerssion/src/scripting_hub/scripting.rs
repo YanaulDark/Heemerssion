@@ -1,3 +1,3 @@
-pub fn scripring_go() {
-    println!("Hello SCRIPTING module")
+pub fn scripting_go() -> String {
+    String::from("Hello SCRIPTING module")
 }

@@ -1,3 +1,3 @@
-pub fn net_go() {
-    println!("Hello NET module")
+pub fn net_go() -> String {
+    String::from("Hello NET module")
 }

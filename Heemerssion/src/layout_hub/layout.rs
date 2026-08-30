@@ -1,3 +1,3 @@
-pub fn layout_go() {
-    println!("Hello LAYOUT module")
+pub fn layout_go() -> String {
+    String::from("Hello LAYOUT module")
 }

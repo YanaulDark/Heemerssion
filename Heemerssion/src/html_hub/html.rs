@@ -1,3 +1,3 @@
-pub fn html_go() {
-    println!("Hello HTML module")
+pub fn html_go() -> String {
+    String::from("Hello HTML module")
 }

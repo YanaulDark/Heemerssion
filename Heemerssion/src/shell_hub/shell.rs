@@ -1,3 +1,3 @@
-pub fn shell_go() {
-    println!("Hello SHELL module")
+pub fn shell_go() -> String {
+        String::from("Hello SHELL module")
 }

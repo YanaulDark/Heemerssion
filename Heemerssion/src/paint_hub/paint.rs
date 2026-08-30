@@ -1,3 +1,3 @@
-pub fn paint_go() {
-    println!("Hello PAINT module")
+pub fn paint_go() -> String  {
+    String::from("Hello PAINT module")
 }

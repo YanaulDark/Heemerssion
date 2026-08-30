@@ -1,3 +1,3 @@
-pub fn dom_go() {
-    println!("Hello DOM module")
+pub fn dom_go() -> String {
+    String::from("Hello DOM module")
 }
